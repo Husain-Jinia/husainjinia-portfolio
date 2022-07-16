@@ -15,10 +15,8 @@ export default function Home() {
         <hr className='mt-20 mb-20 ' />
         <Skills/>
         <hr className='mt-20 mb-20 ' />
-        
         <Projects/>
-        <hr className=' ' />
-               
+        <hr className=' ' />               
         <Experience/>
         <hr className='mt-20 ' />
         <Contact/>
