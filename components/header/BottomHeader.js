@@ -31,4 +31,4 @@ const BottomHeader = () => {
   )
 }
 
-export default bottomHeader
+export default BottomHeader
