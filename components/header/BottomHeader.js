@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-const bottomHeader = () => {
+const BottomHeader = () => {
   return (
     <div className='w-100'>
         <div className='flex flex-col sm:flex-row  justify-between'>
