@@ -16,7 +16,7 @@ const Backend = () => {
                 <div>I also do backend developement</div>
             </div>
             <div className='flex flex-col my-5'>
-                <div className='text-xl font-[600] my-2'>Languages i speak</div>
+                <div className='text-xl font-[600] my-2'>Languages I speak</div>
                 <div>Python, Javascript</div>
             </div>
             <div className='flex flex-col my-5'>
