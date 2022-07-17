@@ -9,7 +9,7 @@ const Header = () => {
             <div className='w-100'>
               <div className='flex flex-col sm:flex-row  justify-between'>
                   <div className='flex flex-col'>
-                      <div className='pb-2 text-sm mb-2'>husain@gmail.com</div>
+                      <div className='pb-2 text-sm mb-2'>husainjiniaga@gmail.com</div>
                       <div className='flex flex-col'>
                           <div className='text-2xl font-[700]'>/frontend developer</div>
                           <div className='text-2xl font-[700]'>/backend developer</div>

@@ -12,7 +12,7 @@ const Contact = () => {
           <div className="">
             <CopyToClipboard text={value}>
               <span className="cursor-pointer text-xl font-[100] tracking-wider">
-                husainjiniaga@gmail
+                husainjiniaga@gmail.com
               </span>
             </CopyToClipboard>
           </div>
