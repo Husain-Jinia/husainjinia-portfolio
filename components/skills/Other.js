@@ -13,7 +13,7 @@ const Other = () => {
         </div>
             <div className='flex flex-col my-5'>
                 <div className='text-2xl font-[800] my-2 '>Other skills</div>
-                <div>Miscelaneous skills</div>
+                <div>Miscellaneous skills</div>
             </div>
             <div className='flex flex-col my-5'>
                 <div className='text-xl font-[600] my-2'>Dev Tools</div>
