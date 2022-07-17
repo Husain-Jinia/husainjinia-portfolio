@@ -10,7 +10,7 @@ const Skills = () => {
         <div className="bg-[#0E0E10] h-[22rem] xl:h-[25rem]">
           <div className="flex flex-col text-center pt-[5rem]">
             <div className="font-[600] text-xl text-white xl:text-3xl">
-              Hi, I am Husain Jinia. nice to meet you.
+              Hi, I am Husain Jinia. Nice to meet you!
             </div>
             <div className="font-[100] text-md text-white pt-10 mx-[2rem] xl:text-lg xl:mx-[15rem]">
               I am a self-taught Full-stack Developer who loves solving
