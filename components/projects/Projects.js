@@ -47,7 +47,7 @@ const Projects = () => {
   return (
     <div className=" text-center lg:text-left xl:text-left">
       <div className="font-[400] text-xl   xl:text-2xl  text-center align-center">
-        Here are some of the projects that I have worked on ....
+       Listed below are some of the projects that I have worked on ....
       </div>
 
       {/* {projectLists && projectLists.map(project=>(
@@ -99,7 +99,7 @@ const Projects = () => {
               organise their tasks and journal their progress
             </div>
             <div className=" font-[700] text-xl text-slate-300 lg:mt-5 xl:mt-5  flex-row cursor-pointer hover:text-slate-500 hidden lg:flex xl:flex">
-              <div>EXPLORE</div>
+              <div>EXPLORE</div>  
               <div className="ml-3 pb-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
