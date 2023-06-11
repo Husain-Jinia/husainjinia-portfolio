@@ -7,10 +7,10 @@ const Experience = () => {
       <div className="flex flex-col ">
         <div className="flex flex-col text-center align-center  bg-[#0E0E10] py-10">
           <div className="font-[600] text-xl  xl:text-3xl text-white">
-            Industry exposure
+            WORK EXPERIENCE
           </div>
           <div className="font-[100] text-md  pt-10 mx-[2rem] xl:text-lg xl:mx-[15rem] text-white">
-            Throughout my coding journey I have gathered professional coding experience by working as an intern in various companies. 
+            Throughout my coding journey I have gathered professional coding experience by working as an intern in various organizations. 
           </div>
         </div>
         <hr className=" align-center mb-20"/>
