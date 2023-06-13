@@ -3,10 +3,10 @@ import uia from "../public/UIA_poster.png";
 import difreese from "../public/difreese2.png";
 import movif from "../public/movif.png";
 import optifood from "../public/optifood.png";
-import dog_breed from "../public/dog_breed1.png"
-import cvflow from "../public/assets/cvflow.png"
-import journalit_app from '../public/assets/journalit_app.png'
-import wordleIt from "../public/wordleit.png"
+import dog_breed from "../public/dog_breed1.png";
+import cvflow from "../public/assets/cvflow.png";
+import journalit_app from '../public/assets/journalit_app.png';
+import wordleIt from "../public/wordleit.png";
 
 export const webProjects = [
   {
@@ -14,7 +14,8 @@ export const webProjects = [
     title: "Dog Adoption",
     subtitle: "React | Tailwind | Firebase",
     description: " Web application with a sole purpose to help dogs find a home and loving owners.",
-    image : dog_breed 
+    image : dog_breed,
+    header_image:"",
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ export const webProjects = [
     subtitle: "Django | Jinja | Tailwind | SKLearn",
     description: "Providing free diagnosis using Machine Learning with a sole purpose to generate awareness about various health complications and help the less fortunate individuals",
     image: difreese,
+    header_image:""
   },
   {
     id: 3,
@@ -30,6 +32,7 @@ export const webProjects = [
     description:
       "Journaling website built using the MERN stack to help people organise their tasks and journal their progress",
     image: journalit,
+    header_image:""
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ export const webProjects = [
     description:
       "Website built in Django to promote instagram artist by scraping artists with less reach from specific hashtags and displaying them on the website",
     image: uia,
+    header_image:""
   },
 
   {
@@ -47,6 +51,7 @@ export const webProjects = [
     description:
       "ML driven website which gives the restaurant owner an estimate of how many orders a restaurant will receive throughout the week.",
     image: optifood,
+    header_image:""
   },
   
 ];
@@ -57,7 +62,8 @@ export const mobileProjects = [
     title: "CVflow",
     subtitle: "Flutter | Dart | Play Store",
     description: "App that lets the user create their own resume. The user needs to fill in the required details and chose a suitable template to generate their resume. The user can print, save and share the newly created resume",
-    image : cvflow
+    image : cvflow,
+    header_image:""
   },
   {
     id: 2,
@@ -65,6 +71,7 @@ export const mobileProjects = [
     subtitle: "Flutter | Dart | Play Store",
     description: "Task management/ journaling app made using Flutter. The user can create, edit and delete new notes / journals/ checklists. The user can add new categories to categorize notes/journals.",
     image: journalit_app,
+    header_image:""
   },
   {
     id: 3,
@@ -72,6 +79,7 @@ export const mobileProjects = [
     subtitle: "Flutter | Dart | Play Store",
     description: "Wordle clone with ongoing implementation of multiplayer feature",
     image: wordleIt,
+    header_image:""
   },
   {
     id: 4,
@@ -79,6 +87,7 @@ export const mobileProjects = [
     subtitle: "Flutter | Dart ",
     description: "A flutter application which shows the rating and description of different movies",
     image: movif,
+    header_image:""
   },
   
 ];

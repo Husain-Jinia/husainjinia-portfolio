@@ -3,7 +3,7 @@ import React from 'react'
 
 const Backend = () => {
   return (
-    <div className='mb-4 xl:mb-0 lg:mb-0'>
+    <div className='mb-4 xl:mb-0 lg:mb-0 overflow-auto'>
         <div className='xl:h-[32rem] lg:h-[32rem] h-[27rem] lg:px-10  xl:p-[5rem] xl:pb-0 lg:p-10 lg:pb-0 flex flex-col text-center align-center   border border-2 border-gray-400 rounded lg:border-white xl:border-white'>
             <div className='my-2   grid place-items-center'>
 
@@ -12,17 +12,17 @@ const Backend = () => {
                 </svg>
             </div>
             <div className='flex flex-col my-5'>
-                <div className='text-2xl font-[800] my-2'>Backend Developer</div>
-                <div>I also do backend developement</div>
+                <div className='text-2xl font-[800] my-2'>Data Engineering</div>
+                <div>Dealing with data is always fun</div>
             </div>
             <div className='flex flex-col my-5'>
                 <div className='text-xl font-[600] my-2'>Languages I speak</div>
-                <div>Python, Javascript</div>
+                <div>Python, Java</div>
             </div>
-            <div className='flex flex-col my-5'>
-                <div className='text-xl font-[600] my-2'>Frameworks</div>
-                <div>Django, Nodejs, Express,</div>
-                <div> Mongodb, MySQL</div>
+            <div className='flex flex-col my-5 relative'>
+                <div className='text-xl font-[600] my-2'>Tools</div>
+                <div>Apache Spark, Hadoop, Flume</div>
+                <div> Hive, Airflow, PowerBI,</div>
             </div>
         </div>
     </div>

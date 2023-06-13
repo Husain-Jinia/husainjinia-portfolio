@@ -3,7 +3,7 @@ import React from 'react'
 const Other = () => {
   return (
 
-    <div className='mb-4 xl:mb-0 lg:mb-0'>
+    <div className='mb-4 xl:mb-0 lg:mb-0 overflow-auto'>
         <div className='xl:h-[32rem] lg:h-[32rem] h-[27rem] xl:p-[5rem] xl:pb-0 lg:p-10 lg:pb-0 flex flex-col text-center align-center  lg:border lg:border-2  lg:rounded  xl:border xl:border-2  xl:rounded border border-2 border-gray-400 rounded lg:border-white xl:border-white  '>
         <div  className='my-2 grid place-items-center'>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 " fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -12,7 +12,7 @@ const Other = () => {
             </svg>
         </div>
             <div className='flex flex-col my-5'>
-                <div className='text-2xl font-[800] my-2 '>Other skills</div>
+                <div className='text-2xl font-[800] my-2 '>Miscellaneous</div>
                 <div>Miscellaneous skills</div>
             </div>
             <div className='flex flex-col my-5'>
