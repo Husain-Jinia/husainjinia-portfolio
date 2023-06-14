@@ -39,7 +39,7 @@ const Projects = () => {
   return (
     <div className=" text-center lg:text-left xl:text-left">
       <div className="font-[400] text-xl   xl:text-2xl  text-center align-center">
-       Listed below are some of the projects that I have worked on ....
+       Listed below are some of the personal projects that I've built ....
       </div>
       <div
         onClick={showDjango}
@@ -74,7 +74,7 @@ const Projects = () => {
               return <>
               <div className="flex flex-col lg:flex-row xl:flex-row justify-between  mt-[3rem] mb-[3rem]" key={d.id}>
                 <div className="flex flex-col my-4 xl:mr-10 lg:mr-5 lg:min-w-[30%] lg:max-w-[40%]">
-                  <div className="font-[600] lg:text-5xl xl:text-9xl text-4xl my-2">
+                  <div className="font-[600] lg:text-5xl 2xl:text-9xl xl:text-8xl text-4xl my-2">
                     {d.title} 
                   </div>
                   <div className="font-[200] text-xl my-2 mb-10">
@@ -148,7 +148,7 @@ const Projects = () => {
               return <>
               <div className="flex flex-col lg:flex-row xl:flex-row justify-between  mt-[3rem] mb-[3rem]" key={d.id}>
                 <div className="flex flex-col my-4 xl:mr-10 lg:mr-5 lg:min-w-[30%] lg:max-w-[40%]">
-                  <div className="font-[600] lg:text-5xl xl:text-9xl text-4xl my-2">
+                  <div className="font-[600] lg:text-5xl 2xl:text-9xl xl:text-8xl text-4xl my-2">
                     {d.title} 
                   </div>
                   <div className="font-[200] text-xl my-2 mb-10">
