@@ -40,7 +40,7 @@ const Experience = () => {
               </div>
             </div>
             <div className="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row mt-10 2xl:mt-[8rem] ">
-              <div className="max-w-30 flex flex-wrap justify-around  rounded 2xl:max-h-[37rem] xl:max-h-[35rem] lg:max-h-[30rem] overflow-auto">
+              <div className="max-w-30 flex flex-wrap justify-around  rounded 2xl:max-h-[37rem] xl:max-h-[35rem] lg:max-h-[30rem] overflow-auto mb-10">
                 <div className="p-4"><Image height="150px" width="150px" src={nextjs}></Image></div>
                 <div className="p-4"><Image height="150px" width="150px" src={reactjs}></Image></div>
                 <div className="p-4"><Image height="150px" width="150px" src={flutter}></Image></div>
@@ -50,7 +50,7 @@ const Experience = () => {
 
               </div>
               <div className="flex flex-col px-10">
-                <div className="font-[600] lg:text-3xl 2xl:text-6xl xl:text-5xl text-2xl hidden lg:contents xl:contents 2xl:contents text-slate-700">
+                <div className="font-[600] lg:text-3xl 2xl:text-6xl xl:text-5xl text-2xl  text-slate-700">
                   Roles and Responsibilities
                 </div>
                 <div className="">
@@ -67,7 +67,7 @@ const Experience = () => {
                   </div>
                  
                 </div>
-                <div className="font-[600] lg:text-3xl 2xl:text-6xl xl:text-5xl text-2xl hidden lg:contents xl:contents 2xl:contents text-slate-700">
+                <div className="font-[600] lg:text-3xl 2xl:text-6xl xl:text-5xl text-2xl  text-slate-700">
                   Objective
                 </div>
                 <div className="">

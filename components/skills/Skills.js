@@ -19,7 +19,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className=" bg-white xl:mt-[-90px] xl:ml-[rem] xl:mr-[8rem] 2xl:ml-[17rem] 2xl:mr-[17rem] lg:ml-[3.1rem] 
+        <div className=" bg-white xl:mt-[-90px] xl:ml-[rem] xl:mr-[8rem] 2xl:ml-[15rem] 2xl:mr-[15rem] lg:ml-[3.1rem] 
         lg:mr-[3.1rem] mt-[-40px] ml-[10px] mr-[10px] flex flex-col lg:flex-row lg:justify-between
         xl:flex-row xl:justify-around lg:border lg:border-2  lg:rounded xl:border xl:border-2  xl:rounded ">
           <Backend />
