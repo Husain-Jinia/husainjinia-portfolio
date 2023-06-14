@@ -3,11 +3,11 @@ import Cards from "./Cards";
 import Image from "next/image";
 import teachedison from '../../public/TE.jpg'
 import nextjs from '../../public/logo/next.png'
-import reactjs from '../../public/logo/react.png'
-import flutter from '../../public/logo/flutter.png'
-import git from '../../public/logo/git.png'
-import dart from '../../public/logo/Dart-logo.png'
-import mongodb from '../../public/logo/mongodb.png'
+import reactjs from '../../public/logo/react-bw.png'
+import flutter from '../../public/logo/flutter-bw.png'
+import git from '../../public/logo/git-bw.png'
+import dart from '../../public/logo/Dart-logo-bw.png'
+import mongodb from '../../public/logo/mongodb-bw.png'
 
 
 
@@ -34,13 +34,15 @@ const Experience = () => {
                 <div className="">
                   <div className=" align-center h-[0.5rem] bg-slate-500 mt-5 "></div>
                 </div>
-                <p className="overflow-auto mt-8 text-lg">TeachEdison is a custom software development company that integrates strategy, design thinking and engineering to build
-                disruptive products for modern educators. We thrive on being an incredible technology partner for our clients in 
+                <p className="overflow-auto mt-8 text-lg">TeachEdison is a custom <span className="font-bold">software development company</span> that integrates strategy, design thinking and engineering to build 
+                <span className="font-bold"> disruptive products for modern educators</span>. We thrive on being an incredible technology partner for our clients in 
                 their pioneering missions to change the world.</p>
+                <p className="my-2 text-lg">Their <span className="font-bold">MISSION</span> is to make education <span className="font-bold">accessible, affordable and credible</span> to anyone and everyone.</p>
+                <p className="text-lg">Their <span className="font-bold">GOAL</span> is to empower <span className="font-bold">one million educators</span> to build successful EdTech companies <span className="font-bold">by 2025.</span></p>
               </div>
             </div>
             <div className="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row mt-10 2xl:mt-[8rem] ">
-              <div className="max-w-30 flex flex-wrap justify-around  rounded 2xl:max-h-[37rem] xl:max-h-[35rem] lg:max-h-[30rem] overflow-auto mb-10">
+              <div className="max-w-40 min-w-40 flex flex-wrap justify-around  rounded 2xl:max-h-[37rem] xl:max-h-[35rem] lg:max-h-[30rem] overflow-auto mb-10">
                 <div className="p-4"><Image height="150px" width="150px" src={nextjs}></Image></div>
                 <div className="p-4"><Image height="150px" width="150px" src={reactjs}></Image></div>
                 <div className="p-4"><Image height="150px" width="150px" src={flutter}></Image></div>
@@ -74,9 +76,10 @@ const Experience = () => {
                   <div className=" align-center h-[0.5rem] bg-slate-400 mt-5 "></div>
                 </div>
                 <div className="overflow-auto mt-8 text-lg">
-                TeachEdison is a custom software development company that integrates strategy, design thinking and engineering to build
-                disruptive products for modern educators. We thrive on being an incredible technology partner for our clients in 
-                their pioneering missions to change the world.
+                My objective through out this internship was to improve my technical skills and get the industry knowledge for the domain I want to work in. 
+                Throughout this internship I worked on various technologies like Reactjs, Nextjs, Monogodb, Flutter etc. I learned how to write clean and quality 
+                code and the proper methodologies that are supposed to be followed while coding. Apart from the technicals skills I also learned how to work as a 
+                team player and how to manage my time properly to meet deadlines and deliver quality work. 
                 </div>
               </div>
             </div>
