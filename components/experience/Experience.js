@@ -16,7 +16,7 @@ const Experience = () => {
     <div>
       <div className="flex flex-col ">
         <div className="flex flex-col text-center align-center  bg-[#0E0E10] py-10">
-          <div className="font-[600] text-xl  xl:text-3xl text-white">
+          <div className="font-[600] text-xl  xl:text-5xl text-white">
             WORK EXPERIENCE
           </div>
           <div className="font-[100] text-md  pt-10 mx-[2rem] xl:text-lg xl:mx-[15rem] text-white">
@@ -26,7 +26,7 @@ const Experience = () => {
         <hr className=" align-center mb-20"/>
         <div className="mx-5 my-2 xl:mx-[10rem] flex flex-col">
             <div className="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row">
-              <Image class="min-w-0 max-w-70" src={teachedison} width="2500px" height="1100px"/>
+              <Image class="min-w-0 max-w-70 opacity-70" src={teachedison} width="2500px" height="1100px"/>
               <div className="flex flex-col pl-10 text-left max-w-40">
                 <div className=" font-[600] lg:text-3xl 2xl:text-6xl xl:text-5xl text-2xl hidden lg:contents xl:contents 2xl:contents text-slate-700">
                   TeachEdison | SWE Intern
